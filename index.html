@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c72a6a6a8e.js" crossorigin="anonymous"></script>
+    <title>Random Cat API</title>
+</head>
+<body>
+    <h1>Get a random breed of cats or a random fact about cats</h1>
+    <div class="note">
+        <p>
+            <span>Note:</span> If you choose a breed and some informations don't appear they don't exist at the moment 
+        </p>
+    </div>
+    <div class="btn-group">
+        <button class="buttons" id="breed">
+            Breed
+            <i class="fa-solid fa-paw"></i>
+        </button>
+        <button class="buttons" id="facts">
+            Facts
+            <i class="fa-solid fa-scroll"></i>
+        </button>
+    </div>
+    <div class="container" id="bredRes"></div>
+    <div class="container" id="factsRes"></div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
